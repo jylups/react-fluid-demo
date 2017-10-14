@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D31D631F91827E00AB845E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D31D621F91827E00AB845E /* ViewController.m */; };
+		F8D31D681F91827E00AB845E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D31D671F91827E00AB845E /* Assets.xcassets */; };
+		F8D31D6E1F91827E00AB845E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D31D6D1F91827E00AB845E /* main.m */; };
+		F8D31D811F9184CF00AB845E /* Lovelo Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8D31D771F9184CF00AB845E /* Lovelo Black.otf */; };
+		F8D31D821F9184CF00AB845E /* BAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D31D781F9184CF00AB845E /* BAViewController.m */; };
+		F8D31D831F9184CF00AB845E /* Lovelo Line Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8D31D7A1F9184CF00AB845E /* Lovelo Line Light.otf */; };
+		F8D31D841F9184CF00AB845E /* BAFluidView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8D31D7C1F9184CF00AB845E /* BAFluidView-Info.plist */; };
+		F8D31D851F9184CF00AB845E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D31D7D1F9184CF00AB845E /* LaunchScreen.xib */; };
+		F8D31D861F9184CF00AB845E /* BAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D31D7E1F9184CF00AB845E /* BAAppDelegate.m */; };
+		F8D31D871F9184CF00AB845E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D31D7F1F9184CF00AB845E /* Images.xcassets */; };
+		F8D31D891F9186AB00AB845E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D31D881F9186AB00AB845E /* UIKit.framework */; };
+		F8D31D8B1F9186BC00AB845E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D31D8A1F9186BC00AB845E /* Foundation.framework */; };
+		F8D31D9F1F91985000AB845E /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D31D9B1F91985000AB845E /* UIColor+ColorWithHex.m */; };
+		F8D31DA01F91985000AB845E /* BAFluidView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D31D9E1F91985000AB845E /* BAFluidView.m */; };
+		F8D31DA31F91989200AB845E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D31DA11F91989200AB845E /* Main_iPhone.storyboard */; };
+		F8D31DA51F9198DC00AB845E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D31DA41F9198DC00AB845E /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8D31D5B1F91827E00AB845E /* react-fluid-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-fluid-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D31D611F91827E00AB845E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8D31D621F91827E00AB845E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8D31D671F91827E00AB845E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D31D6C1F91827E00AB845E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D31D6D1F91827E00AB845E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D31D771F9184CF00AB845E /* Lovelo Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lovelo Black.otf"; sourceTree = "<group>"; };
+		F8D31D781F9184CF00AB845E /* BAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAViewController.m; sourceTree = "<group>"; };
+		F8D31D791F9184CF00AB845E /* BAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAppDelegate.h; sourceTree = "<group>"; };
+		F8D31D7A1F9184CF00AB845E /* Lovelo Line Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lovelo Line Light.otf"; sourceTree = "<group>"; };
+		F8D31D7B1F9184CF00AB845E /* BAFluidView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BAFluidView-Prefix.pch"; sourceTree = "<group>"; };
+		F8D31D7C1F9184CF00AB845E /* BAFluidView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BAFluidView-Info.plist"; sourceTree = "<group>"; };
+		F8D31D7D1F9184CF00AB845E /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		F8D31D7E1F9184CF00AB845E /* BAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAppDelegate.m; sourceTree = "<group>"; };
+		F8D31D7F1F9184CF00AB845E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8D31D801F9184CF00AB845E /* BAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAViewController.h; sourceTree = "<group>"; };
+		F8D31D881F9186AB00AB845E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8D31D8A1F9186BC00AB845E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8D31D9A1F91985000AB845E /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		F8D31D9B1F91985000AB845E /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		F8D31D9C1F91985000AB845E /* BAFluidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAFluidView.h; sourceTree = "<group>"; };
+		F8D31D9D1F91985000AB845E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F8D31D9E1F91985000AB845E /* BAFluidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAFluidView.m; sourceTree = "<group>"; };
+		F8D31DA21F91989200AB845E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F8D31DA41F9198DC00AB845E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D31D581F91827E00AB845E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D31DA51F9198DC00AB845E /* CoreGraphics.framework in Frameworks */,
+				F8D31D8B1F9186BC00AB845E /* Foundation.framework in Frameworks */,
+				F8D31D891F9186AB00AB845E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D31D521F91827E00AB845E = {
+			isa = PBXGroup;
+			children = (
+				F8D31D5D1F91827E00AB845E /* react-fluid-demo */,
+				F8D31D5C1F91827E00AB845E /* Products */,
+				F8D31D741F9182B600AB845E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D31D5C1F91827E00AB845E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D31D5B1F91827E00AB845E /* react-fluid-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D31D5D1F91827E00AB845E /* react-fluid-demo */ = {
+			isa = PBXGroup;
+			children = (
+				F8D31DA11F91989200AB845E /* Main_iPhone.storyboard */,
+				F8D31D791F9184CF00AB845E /* BAAppDelegate.h */,
+				F8D31D7E1F9184CF00AB845E /* BAAppDelegate.m */,
+				F8D31D7C1F9184CF00AB845E /* BAFluidView-Info.plist */,
+				F8D31D7B1F9184CF00AB845E /* BAFluidView-Prefix.pch */,
+				F8D31D801F9184CF00AB845E /* BAViewController.h */,
+				F8D31D781F9184CF00AB845E /* BAViewController.m */,
+				F8D31D7F1F9184CF00AB845E /* Images.xcassets */,
+				F8D31D7D1F9184CF00AB845E /* LaunchScreen.xib */,
+				F8D31D771F9184CF00AB845E /* Lovelo Black.otf */,
+				F8D31D7A1F9184CF00AB845E /* Lovelo Line Light.otf */,
+				F8D31D611F91827E00AB845E /* ViewController.h */,
+				F8D31D621F91827E00AB845E /* ViewController.m */,
+				F8D31D671F91827E00AB845E /* Assets.xcassets */,
+				F8D31D6C1F91827E00AB845E /* Info.plist */,
+				F8D31D6D1F91827E00AB845E /* main.m */,
+			);
+			path = "react-fluid-demo";
+			sourceTree = "<group>";
+		};
+		F8D31D741F9182B600AB845E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D31DA41F9198DC00AB845E /* CoreGraphics.framework */,
+				F8D31D991F91982F00AB845E /* BAFluidView */,
+				F8D31D8A1F9186BC00AB845E /* Foundation.framework */,
+				F8D31D881F9186AB00AB845E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D31D991F91982F00AB845E /* BAFluidView */ = {
+			isa = PBXGroup;
+			children = (
+				F8D31D9C1F91985000AB845E /* BAFluidView.h */,
+				F8D31D9E1F91985000AB845E /* BAFluidView.m */,
+				F8D31D9D1F91985000AB845E /* Constants.h */,
+				F8D31D9A1F91985000AB845E /* UIColor+ColorWithHex.h */,
+				F8D31D9B1F91985000AB845E /* UIColor+ColorWithHex.m */,
+			);
+			path = BAFluidView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D31D5A1F91827E00AB845E /* react-fluid-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D31D711F91827E00AB845E /* Build configuration list for PBXNativeTarget "react-fluid-demo" */;
+			buildPhases = (
+				F8D31D571F91827E00AB845E /* Sources */,
+				F8D31D581F91827E00AB845E /* Frameworks */,
+				F8D31D591F91827E00AB845E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-fluid-demo";
+			productName = "react-fluid-demo";
+			productReference = F8D31D5B1F91827E00AB845E /* react-fluid-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D31D531F91827E00AB845E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jylups LLC";
+				TargetAttributes = {
+					F8D31D5A1F91827E00AB845E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8D31D561F91827E00AB845E /* Build configuration list for PBXProject "react-fluid-demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D31D521F91827E00AB845E;
+			productRefGroup = F8D31D5C1F91827E00AB845E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D31D5A1F91827E00AB845E /* react-fluid-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D31D591F91827E00AB845E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D31D831F9184CF00AB845E /* Lovelo Line Light.otf in Resources */,
+				F8D31D871F9184CF00AB845E /* Images.xcassets in Resources */,
+				F8D31D841F9184CF00AB845E /* BAFluidView-Info.plist in Resources */,
+				F8D31D851F9184CF00AB845E /* LaunchScreen.xib in Resources */,
+				F8D31DA31F91989200AB845E /* Main_iPhone.storyboard in Resources */,
+				F8D31D811F9184CF00AB845E /* Lovelo Black.otf in Resources */,
+				F8D31D681F91827E00AB845E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D31D571F91827E00AB845E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D31D631F91827E00AB845E /* ViewController.m in Sources */,
+				F8D31D861F9184CF00AB845E /* BAAppDelegate.m in Sources */,
+				F8D31DA01F91985000AB845E /* BAFluidView.m in Sources */,
+				F8D31D6E1F91827E00AB845E /* main.m in Sources */,
+				F8D31D9F1F91985000AB845E /* UIColor+ColorWithHex.m in Sources */,
+				F8D31D821F9184CF00AB845E /* BAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8D31DA11F91989200AB845E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D31DA21F91989200AB845E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D31D6F1F91827E00AB845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8D31D701F91827E00AB845E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D31D721F91827E00AB845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX77ZAH85T;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "react-fluid-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conscia.react-fluid-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D31D731F91827E00AB845E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX77ZAH85T;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "react-fluid-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conscia.react-fluid-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D31D561F91827E00AB845E /* Build configuration list for PBXProject "react-fluid-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D31D6F1F91827E00AB845E /* Debug */,
+				F8D31D701F91827E00AB845E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D31D711F91827E00AB845E /* Build configuration list for PBXNativeTarget "react-fluid-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D31D721F91827E00AB845E /* Debug */,
+				F8D31D731F91827E00AB845E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D31D531F91827E00AB845E /* Project object */;
+}

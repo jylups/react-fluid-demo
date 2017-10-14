@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lovelo Black.otf">
+            <string>LoveloBlack</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BAViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0g-MY-pdY" userLabel="backgroundView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hp0-Cw-PYx" userLabel="exampleContainerView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Swipe downward for next example" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2NC-Ud-FpW">
+                                <rect key="frame" x="49" y="448" width="222" height="12"/>
+                                <fontDescription key="fontDescription" name="LoveloBlack" family="Lovelo" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hp0-Cw-PYx" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="3tx-I3-aOc"/>
+                            <constraint firstAttribute="trailing" secondItem="c0g-MY-pdY" secondAttribute="trailing" id="Ksp-5o-a4T"/>
+                            <constraint firstAttribute="centerX" secondItem="2NC-Ud-FpW" secondAttribute="centerX" id="Ll4-PY-SgV"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="hp0-Cw-PYx" secondAttribute="bottom" id="Upq-5c-SwQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="c0g-MY-pdY" secondAttribute="bottom" id="aPu-Xt-pSi"/>
+                            <constraint firstItem="c0g-MY-pdY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="cOE-Xk-m8g"/>
+                            <constraint firstAttribute="trailing" secondItem="hp0-Cw-PYx" secondAttribute="trailing" id="rkK-Ch-dig"/>
+                            <constraint firstItem="hp0-Cw-PYx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tvk-p1-1tZ"/>
+                            <constraint firstItem="c0g-MY-pdY" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="zrY-E8-Xmz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="c0g-MY-pdY" id="gwU-1D-kTY"/>
+                        <outlet property="exampleContainerView" destination="hp0-Cw-PYx" id="XwK-0S-RpF"/>
+                        <outlet property="swipeForNextExampleLabel" destination="2NC-Ud-FpW" id="2Tj-wr-V9J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
